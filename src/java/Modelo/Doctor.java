@@ -16,13 +16,13 @@ public class Doctor {
     String apellidos;
     String dui;
     String horaAtencion;
-    int estado;
+    String estado;
     int FkEspecialidad;
 
     public Doctor() {
     }
     
-    public Doctor(int Iddoctor, String nombres, String apellidos, String dui, String horaAtencion, int estado, int FkEspecialidad) {
+    public Doctor(int Iddoctor, String nombres, String apellidos, String dui, String horaAtencion, String estado, int FkEspecialidad) {
         this.Iddoctor = Iddoctor;
         this.nombres = nombres;
         this.apellidos = apellidos;
@@ -68,15 +68,15 @@ public class Doctor {
         return horaAtencion;
     }
 
-    public void setHoraAtencion(String hotaAtencion) {
-        this.horaAtencion = hotaAtencion;
+    public void setHoraAtencion(String horaAtencion) {
+        this.horaAtencion = horaAtencion;
     }
 
-    public int getEstado() {
+    public String getEstado() {
         return estado;
     }
 
-    public void setEstado(int estado) {
+    public void setEstado(String estado) {
         this.estado = estado;
     }
 
@@ -87,6 +87,5 @@ public class Doctor {
     public void setFkEspecialidad(int FkEspecialidad) {
         this.FkEspecialidad = FkEspecialidad;
     }
-    
     
 }

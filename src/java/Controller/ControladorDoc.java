@@ -64,7 +64,7 @@ public class ControladorDoc extends HttpServlet{
             d.setApellidos(ape);
             d.setDui(dui);
             d.setHoraAtencion(hor);
-            d.setEstado(id);
+            d.setEstado(est);
             d.setFkEspecialidad(Integer.parseInt(esp));
             dao.add(d);
             acceso=listar;
@@ -86,7 +86,7 @@ public class ControladorDoc extends HttpServlet{
             d.setApellidos(ape);
             d.setDui(dui);
             d.setHoraAtencion(hor);
-            d.setEstado(id);
+            d.setEstado(est);
             d.setFkEspecialidad(Integer.parseInt(esp));
             dao.edit(d);
             acceso=listar;

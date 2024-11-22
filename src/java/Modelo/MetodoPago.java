@@ -9,5 +9,31 @@ package Modelo;
  * @author HP
  */
 public class MetodoPago {
+    int IdMetodo;
+    String descripcion;
+
+    public MetodoPago() {
+    }
+    
+    public MetodoPago(int IdMetodo, String descripcion) {
+        this.IdMetodo = IdMetodo;
+        this.descripcion = descripcion;
+    }
+    
+    public int getIdMetodo() {
+        return IdMetodo;
+    }
+
+    public void setIdMetodo(int IdMetodo) {
+        this.IdMetodo = IdMetodo;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
     
 }

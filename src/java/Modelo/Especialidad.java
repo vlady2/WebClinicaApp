@@ -9,5 +9,31 @@ package Modelo;
  * @author HP
  */
 public class Especialidad {
+    int IdEspecialidad;
+    String nombreE;
+
+    public Especialidad() {
+    }
+    
+    public Especialidad(int IdEspecialidad, String nombreE) {
+        this.IdEspecialidad = IdEspecialidad;
+        this.nombreE = nombreE;
+    }
+    
+    public int getIdEspecialidad() {
+        return IdEspecialidad;
+    }
+
+    public void setIdEspecialidad(int IdEspecialidad) {
+        this.IdEspecialidad = IdEspecialidad;
+    }
+
+    public String getNombreE() {
+        return nombreE;
+    }
+
+    public void setNombreE(String nombreE) {
+        this.nombreE = nombreE;
+    }
     
 }

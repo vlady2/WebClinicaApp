@@ -3,8 +3,27 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/USO/WebClinicaApp/src/java/Controller/ControladorPas.java</file>
+            <file>file:/D:/USO/WebClinicaApp/src/java/Modelo/MetodoPago.java</file>
+            <file>file:/D:/USO/WebClinicaApp/src/java/Modelo/Cita.java</file>
+            <file>file:/D:/USO/WebClinicaApp/src/java/DAO/RecetaDAO.java</file>
+            <file>file:/D:/USO/WebClinicaApp/src/java/Modelo/Seguro.java</file>
+            <file>file:/D:/USO/WebClinicaApp/src/java/DAO/CatalogosDAO.java</file>
+            <file>file:/D:/USO/WebClinicaApp/src/java/Modelo/Medicamento.java</file>
+            <file>file:/D:/USO/WebClinicaApp/src/java/Modelo/Inventario.java</file>
+            <file>file:/D:/USO/WebClinicaApp/src/java/Modelo/CitaInventario.java</file>
             <file>file:/D:/USO/WebClinicaApp/src/java/Controller/ControladorDoc.java</file>
+            <file>file:/D:/USO/WebClinicaApp/src/java/Modelo/Laboratorio.java</file>
+            <file>file:/D:/USO/WebClinicaApp/src/java/Modelo/Procedimiento.java</file>
+            <file>file:/D:/USO/WebClinicaApp/src/java/Controller/ControladorRES.java</file>
+            <file>file:/D:/USO/WebClinicaApp/src/java/Modelo/Diagnostico.java</file>
+            <file>file:/D:/USO/WebClinicaApp/src/java/Interfaces/CRUDCAT.java</file>
+            <file>file:/D:/USO/WebClinicaApp/src/java/Modelo/Examen.java</file>
+            <file>file:/D:/USO/WebClinicaApp/src/java/Controller/ControladorCAT.java</file>
+            <file>file:/D:/USO/WebClinicaApp/src/java/Modelo/Doctor.java</file>
+            <file>file:/D:/USO/WebClinicaApp/src/java/Modelo/Especialidad.java</file>
+            <file>file:/D:/USO/WebClinicaApp/src/java/Modelo/Receta.java</file>
+            <file>file:/D:/USO/WebClinicaApp/src/java/Interfaces/CRUDRES.java</file>
+            <file>file:/D:/USO/WebClinicaApp/src/java/Modelo/Enfermedad.java</file>
         </group>
     </open-files>
 </project-private>

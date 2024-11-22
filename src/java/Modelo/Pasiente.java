@@ -14,24 +14,30 @@ public class Pasiente {
     int IdPaciente;
     String nombres;
     String apellidos;
+    Date fechaNac;
+    String sexo;
     String dui;
     String direccion;
     String telefono;
-    Date fechaNac;
+    int FkSeguro;
+    String historial;
 
     public Pasiente() {
     }
     
-    public Pasiente(int IdPaciente, String nombres, String apellidos, String dui, String direccion, String telefono, Date fechaNac) {
+    public Pasiente(int IdPaciente, String nombres, String apellidos, Date fechaNac, String sexo, String dui, String direccion, String telefono, int FkSeguro, String historial) {
         this.IdPaciente = IdPaciente;
         this.nombres = nombres;
         this.apellidos = apellidos;
+        this.fechaNac = fechaNac;
+        this.sexo = sexo;
         this.dui = dui;
         this.direccion = direccion;
         this.telefono = telefono;
-        this.fechaNac = fechaNac;
+        this.FkSeguro = FkSeguro;
+        this.historial = historial;
     }
-
+    
     public int getIdPaciente() {
         return IdPaciente;
     }
@@ -54,6 +60,22 @@ public class Pasiente {
 
     public void setApellidos(String apellidos) {
         this.apellidos = apellidos;
+    }
+
+    public Date getFechaNac() {
+        return fechaNac;
+    }
+
+    public void setFechaNac(Date fechaNac) {
+        this.fechaNac = fechaNac;
+    }
+
+    public String getSexo() {
+        return sexo;
+    }
+
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
     }
 
     public String getDui() {
@@ -80,13 +102,20 @@ public class Pasiente {
         this.telefono = telefono;
     }
 
-    public Date getFechaNac() {
-        return fechaNac;
+    public int getFkSeguro() {
+        return FkSeguro;
     }
 
-    public void setFechaNac(Date fechaNac) {
-        this.fechaNac = fechaNac;
+    public void setFkSeguro(int FkSeguro) {
+        this.FkSeguro = FkSeguro;
     }
-    
+
+    public String getHistorial() {
+        return historial;
+    }
+
+    public void setHistorial(String historial) {
+        this.historial = historial;
+    }
     
 }

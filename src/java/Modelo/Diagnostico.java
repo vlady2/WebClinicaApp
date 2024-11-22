@@ -9,5 +9,9 @@ package Modelo;
  * @author HP
  */
 public class Diagnostico {
-    
+    int IdDiagnostico;
+    int FkCita;
+    int FkEnfermedad;
+    String descripcion;
+    String tratamiento;
 }
